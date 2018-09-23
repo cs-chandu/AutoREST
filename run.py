@@ -1,4 +1,4 @@
-from app_autorun import get_app
+from app_autorest import get_app
 
 app = get_app('sqlite+pysqlite:///tests/data/db.sqlite3')
 
